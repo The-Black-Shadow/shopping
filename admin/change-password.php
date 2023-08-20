@@ -74,7 +74,7 @@ return true;
 	<div class="wrapper">
 		<div class="container">
 			<div class="row">
-<?php include('include/sidebar.php');?>				
+				<?php include('include/sidebar.php');?>				
 			<div class="span9">
 					<div class="content">
 
@@ -93,35 +93,28 @@ return true;
 <?php } ?>
 									<br />
 
-			<form class="form-horizontal row-fluid" name="chngpwd" method="post" onSubmit="return valid();">
-									
-<div class="control-group">
-<label class="control-label" for="basicinput">Current Password</label>
-<div class="controls">
-<input type="password" placeholder="Enter your current Password"  name="password" class="span8 tip" required>
-</div>
-</div>
+									<form class="form-horizontal row-fluid" name="chngpwd" method="post" onSubmit="return valid();">
+															
+										<div class="control-group">
+										<label class="control-label" for="basicinput">Current Password</label>
+										<div class="controls">
+										<input type="password" placeholder="Enter your current Password"  name="password" class="span8 tip" required>
+										</div>
+										</div>
 
+										<div class="control-group">
+										<label class="control-label" for="basicinput">New Password</label>
+										<div class="controls">
+										<input type="password" placeholder="Enter your new current Password"  name="newpassword" class="span8 tip" required>
+										</div>
+										</div>
 
-<div class="control-group">
-<label class="control-label" for="basicinput">New Password</label>
-<div class="controls">
-<input type="password" placeholder="Enter your new current Password"  name="newpassword" class="span8 tip" required>
-</div>
-</div>
-
-<div class="control-group">
-<label class="control-label" for="basicinput">Current Password</label>
-<div class="controls">
-<input type="password" placeholder="Enter your new Password again"  name="confirmpassword" class="span8 tip" required>
-</div>
-</div>
-
-
-
-
-										
-
+										<div class="control-group">
+										<label class="control-label" for="basicinput">Current Password</label>
+										<div class="controls">
+										<input type="password" placeholder="Enter your new Password again"  name="confirmpassword" class="span8 tip" required>
+										</div>
+										</div>
 										<div class="control-group">
 											<div class="controls">
 												<button type="submit" name="submit" class="btn">Submit</button>

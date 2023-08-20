@@ -194,6 +194,7 @@ echo htmlentities($_SESSION['errmsg']="");
 		  	<a href="forgot-password.php" class="forgot-password pull-right">Forgot your Password?</a>
 		</div>
 	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="login">Login</button>
+		<a href="admin/index.php"><button type="button"  class="btn-upper btn btn-primary checkout-page-button">Login as admin</button></a>
 	</form>					
 </div>
 <!-- Sign-in -->
